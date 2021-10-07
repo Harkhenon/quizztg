@@ -43,7 +43,7 @@
     "save-deps": "rm -rf node_modules && npm update --save && npm update --save-dev"
   },
   "dependencies": {
-    "axios": "^0.19.1",
+    "axios": ">=0.21.2",
     "mini-css-extract-plugin": "*",
     "node-sass": "*",
     "prop-types": "^15.7.2",
