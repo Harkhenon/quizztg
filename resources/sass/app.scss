@@ -1,0 +1,92 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+html {
+    & body {
+        background-color: #202124;
+        & input {
+            color: #eee;
+        }
+        & #root {
+            header .sidenav .user-view {
+                & a:hover {
+                    background-color: #2bbbad;
+                }
+
+                & .email {
+                    line-height: 2.3em;
+                    cursor: default;
+                }
+
+                & .btn-small {
+                    padding-left: 8px;
+                    padding-right: 13px;
+                }
+            }
+            & #user-bar {
+                color: white;
+                text-align: right;
+                & span {
+                    display: inline-block;
+                    margin: 0 10px 0 10px;
+                }
+                padding: 1%;
+                background-color:firebrick;
+            }
+
+            & main {
+                min-height: 60vh;
+                margin-top: 4vh;
+
+                & #main-nav {
+                    text-align: center;
+                    & .main-button {
+                        // margin: 10px 0 10px 0;
+                        // min-height: 100px;
+                        // min-width: 250px;
+                        // font-size: 3em;
+                    }
+                }
+
+
+
+                & .breadcrumb {
+                    margin-bottom: 50px;
+                    & .divider {
+                        color: white;
+                    }
+                }
+
+                & .input-examen
+                 {
+                  margin: 50px auto 50px auto;
+                  text-align: center;
+                }
+
+
+                & #main-table {
+
+                    width: 100%;
+                    padding: 50px;
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-evenly;
+
+                }
+            footer {
+                margin-top: 1em;
+                height: 20vh;
+                padding: 2em;
+                color: white;
+                background-color: #0f2121;
+            }
+        }
+    }
+
+    button { color: black }
+}
+}

@@ -1,0 +1,10 @@
+html {
+    & body {
+        background-color: #212121;
+        & #root {
+            & main {
+                margin-top: 1vh;
+            }
+        }
+    }
+}
